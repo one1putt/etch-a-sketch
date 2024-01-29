@@ -5,7 +5,12 @@ let cellSize = 960 / gridSize
 // loop gridSize for cells
 for (let i = 0; i < (gridSize * gridSize); i++) {
     const div = document.createElement('div')
-    div.setAttribute('class', 'cell')
+    // div.setAttribute('class', 'cell')
+    div.style.cssText = `width: ${cellSize}px; 
+                        height: ${cellSize}px; 
+                        border-style: solid; 
+                        border-width: 1px;
+                        background-color: orange`
     grid.appendChild(div)
     div.addEventListener('mouseenter', changeBackgroundColor)
 }
