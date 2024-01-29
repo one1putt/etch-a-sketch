@@ -32,3 +32,19 @@ body {
     border-style: solid;
     border-width: 1px;
 }
+
+.button {
+    width: 962px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 24px;
+    padding: 3px 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+}
